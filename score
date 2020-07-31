@@ -26,7 +26,7 @@ int main()
                 {   
                     grade = malloc(sizeof(char) * strlen(GRADES[i]));
                     strcpy(grade, GRADES[i]);
-                    printf("학점은 %c 입니다.\n",*grade);
+                    printf("학점은 %s 입니다.\n",grade);
                     goto loop;
                 }
             }
